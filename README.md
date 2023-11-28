@@ -58,6 +58,42 @@ Cloud Computing
 - Greater security controls.
 - Requires traditional datacenter staffing.
 
+
+
+
+# Public Cloud
+
+- **Offered by third-party providers.**
+- **Available over the public internet.**
+- **Scales quickly and conveniently.**
+
+# Private Cloud
+
+- **Offered to select users over the internet or a private network.**
+- **Greater security controls.**
+- **Requires traditional datacenter staffing.**
+
+## Key Differences
+
+| Feature                     | Public Cloud                                     | Private Cloud                                       |
+|-----------------------------|--------------------------------------------------|-----------------------------------------------------|
+| **Accessibility**           | Open to anyone over the public internet.         | Restricted to select users over a private network.   |
+| **Security Controls**       | Relies on the provider's security measures.      | Allows for greater control and customization.        |
+| **Data Sensitivity**        | Suitable for information not very sensitive.     | Suitable for highly sensitive information.
+| **Costs**                   | Generally cheaper than private clouds.           | Can be costlier due to dedicated infrastructure.     |
+| **Infrastructure Sharing**  | Utilizes shared infrastructure.                  | Doesn't utilize shared infrastructure.               |
+| **Customer Support**        | Supports multiple customers.                    | Supports only one dedicated customer.                |
+| **Security Level**          | Requires a higher level of security.             | Requires a medium level of security.                 |
+| **Logical Segregation**     | May use VLANs, access lists, VRF lite, MPLS, etc. | Doesn't have to be too sensitive on logical segregation.|
+| **Server Hosting**          | Utilizes shared servers.                         | Uses dedicated servers.                              |
+| **Proactive Monitoring**    | No dedicated proactive monitoring.               | Has dedicated proactive monitoring.  
+
+| **Cost Structure**          | Generally a fixed cost.                          | Variable total cost of ownership (TCO).              |
+| **Architecture**            | Multitenant architecture.                        | Dedicated customer architecture.                     |
+
+
+
+
 ## Hybrid Cloud
 - Combination of public and private clouds.
 - Shared security responsibility.
