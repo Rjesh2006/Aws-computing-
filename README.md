@@ -64,4 +64,46 @@ Cloud Computing
 
 # AWS Gov Cloud and China Regions
 
-...
+Certainly! Here's the information converted into GitHub-flavored markdown code:
+
+```markdown
+# Serverless
+
+## Compute Service
+- Fargate: Serverless compute engine for containers.
+- Lambda: Serverless computing service.
+
+## Database
+- Aurora Serverless: On-demand, autoscaling configuration for Amazon Aurora.
+
+## Storage
+- EFS (Elastic File System): Shared file system without pre-defined size increase.
+- DRBD: Distributed Replicated Block Device.
+
+## Block Storage
+- Object Storage
+- RAID (Redundant Array of Independent Disks)
+- SAN (Storage Area Network)
+
+## Network
+- VPC (Virtual Private Cloud)
+- Direct Connect: Connect your on-premises database with AWS databases directly.
+
+## AWS Services
+- SQS (Simple Queue Service): Queue service.
+- CodeBuild: Build tool, compiler.
+- CloudTrail: Records AWS API calls.
+- CodeDeploy: Automates code deployments.
+- CodePipelines: Continuous delivery service.
+- CodeCommit: Version control service.
+- CodePipeline + CodeCommit: Service control system (SCS).
+- Amazon Polly: Text-to-speech service.
+- Amazon Lex: Conversational interfaces.
+- AWS Comprehend: Natural language processing.
+- SNS (Simple Notification Service): Publish-subscribe messaging.
+- Braket: Quantum computing service.
+- RabbitMQ: Message broker with a pub-sub model.
+
+```
+
+You can copy this code and paste it into your GitHub repository. Feel free to customize it further based on your preferences.
