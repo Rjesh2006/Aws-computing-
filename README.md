@@ -66,7 +66,6 @@ Cloud Computing
 
 Certainly! Here's the information converted into GitHub-flavored markdown code:
 
-```markdown
 # Serverless
 
 ## Compute Service
@@ -98,12 +97,8 @@ Certainly! Here's the information converted into GitHub-flavored markdown code:
 - CodeCommit: Version control service.
 - CodePipeline + CodeCommit: Service control system (SCS).
 - Amazon Polly: Text-to-speech service.
-- Amazon Lex: Conversational interfaces.
-- AWS Comprehend: Natural language processing.
+- Amazon Lex: Conversational interfaces
+AWS Comprehend: Natural language processing.
 - SNS (Simple Notification Service): Publish-subscribe messaging.
 - Braket: Quantum computing service.
 - RabbitMQ: Message broker with a pub-sub model.
-
-```
-
-You can copy this code and paste it into your GitHub repository. Feel free to customize it further based on your preferences.
