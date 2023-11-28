@@ -143,7 +143,18 @@ AWS EKS provides:
   - Supports popular Kubernetes tools and applications.
 - **Worker Nodes:** Managed EC2 instances running in your account.
 - **Control Plane:** Managed by AWS, reducing operational overhead.
+  
 
+# AWS ECS (Elastic Container Service)
 
+AWS ECS is a service that provides:
 
+- **Container Orchestration:** Manages the deployment and scaling of containerized applications.
+- **Compatibility:** Works with Docker containers.
+- **Key Features:**
+  - **Task Definitions:** Defines containers to be launched together.
+  - **Clusters:** Logical grouping of container instances.
+  - **Services:** Defines how tasks are deployed and maintained.
+- **Integration:** Integrates with other AWS services like ELB, ECR, IAM, etc.
+- **Managed Service:** Removes the need for you to install, operate, and scale your own cluster management infrastructure.
 
