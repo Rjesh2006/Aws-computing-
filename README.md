@@ -87,7 +87,6 @@ Cloud Computing
 | **Logical Segregation**     | May use VLANs, access lists, VRF lite, MPLS, etc. | Doesn't have to be too sensitive on logical segregation.|
 | **Server Hosting**          | Utilizes shared servers.                         | Uses dedicated servers.                              |
 | **Proactive Monitoring**    | No dedicated proactive monitoring.               | Has dedicated proactive monitoring.  
-
 | **Cost Structure**          | Generally a fixed cost.                          | Variable total cost of ownership (TCO).              |
 | **Architecture**            | Multitenant architecture.                        | Dedicated customer architecture.                     |
 
