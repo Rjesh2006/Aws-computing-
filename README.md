@@ -129,6 +129,21 @@ AWS Load Balancer is a service that provides:**
 - **Optimization:** Automatically adjusts resources for efficient performance.
 - **Management:** Simplifies resource scaling and management.
 
+## Eks service on Aws
+
+AWS EKS (Elastic Kubernetes Service)
+
+AWS EKS provides:
+
+- **Managed Kubernetes:** Fully managed Kubernetes service.
+- **Easy Deployment:** Simplifies the deployment, management, and scaling of containerized applications using Kubernetes.
+- **Benefits:**
+  - Automates Kubernetes cluster provisioning and maintenance.
+  - Integrated with AWS services and features.
+  - Supports popular Kubernetes tools and applications.
+- **Worker Nodes:** Managed EC2 instances running in your account.
+- **Control Plane:** Managed by AWS, reducing operational overhead.
+
 
 
 
