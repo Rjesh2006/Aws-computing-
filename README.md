@@ -102,3 +102,33 @@ AWS Comprehend: Natural language processing.
 - SNS (Simple Notification Service): Publish-subscribe messaging.
 - Braket: Quantum computing service.
 - RabbitMQ: Message broker with a pub-sub model.
+
+## Auto Scalling
+
+AWS Auto Scaling
+
+AWS Auto Scaling adjusts resources in your Auto Scaling group to match desired capacity, ensuring:
+
+## load balancer
+
+**AWS Load Balancer
+AWS Load Balancer is a service that provides:**
+
+- **Horizontal Scaling:** Distributes incoming application traffic across multiple targets for better availability.
+- **High Availability:** Ensures fault tolerance and availability of applications.
+- **Types:**
+  - **Classic Load Balancer:** Layer 4 & 7, the original load balancer.
+  - **Application Load Balancer:** Layer 7, for routing based on content.
+  - **Network Load Balancer:** Layer 4, handles TCP/UDP traffic.
+- **Implementation of Horizontal Scaling:** Facilitates scaling applications horizontally for increased capacity.
+- **Required for High Availability:** Essential for maintaining high availability of applications.
+
+
+- **Availability:** Maintains application availability.
+- **Dynamic Scaling:** Scales Amazon EC2 capacity based on demand.
+- **Optimization:** Automatically adjusts resources for efficient performance.
+- **Management:** Simplifies resource scaling and management.
+
+
+
+
