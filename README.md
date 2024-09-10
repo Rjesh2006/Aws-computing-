@@ -194,3 +194,24 @@ AWS ECS is a service that provides:
 - **Integration:** Integrates with other AWS services like ELB, ECR, IAM, etc.
 - **Managed Service:** Removes the need for you to install, operate, and scale your own cluster management infrastructure.
 
+# AWS Secret Management
+
+AWS provides services to securely manage sensitive information like passwords, API keys, and database credentials:
+
+- **AWS Systems Manager Parameter Store:** 
+  - **Stores:** Configuration data and secrets (plaintext or encrypted).
+  - **Access:** IAM integration for permissions.
+  - **Features:** Versioning, hierarchical storage.
+
+- **AWS Secrets Manager:** 
+  - **Stores:** Sensitive data with KMS encryption.
+  - **Rotation:** Automatic secret rotation for supported services.
+  - **Access:** Fine-grained control via IAM.
+  - **Audit:** CloudTrail for secret access tracking.
+
+- **HashiCorp Vault:** 
+  - **Dynamic Secrets:** Generates temporary credentials on demand.
+  - **Revocation:** Lease-based secret management.
+  - **Access:** Policy-driven access control.
+  - **Support:** Works with multiple backends, not limited to AWS.
+
