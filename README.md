@@ -139,43 +139,42 @@ Cloud Computing
 
 # Networking in AWS
 
-### 1. Amazon Virtual Private Cloud (VPC):
-- Create a virtual network in AWS with custom IP ranges, subnets, and route tables.
-- Supports public/private subnets and both IPv4 and IPv6.
+**Amazon Virtual Private Cloud (VPC):**
+- Create a virtual network with custom IP ranges, subnets, and route tables.
+- Supports both public/private subnets and IPv4/IPv6.
 
-### 2. Elastic Load Balancing (ELB):
-- Distributes traffic across multiple EC2 instances.
-- Types: **ALB** (HTTP/HTTPS), **NLB** (TCP), **Gateway Load Balancer** (third-party appliances).
-- Improves fault tolerance by routing traffic to healthy instances.
+**Elastic Load Balancing (ELB):**
+- Distributes traffic across EC2 instances.
+- Types: **ALB** (HTTP/HTTPS), **NLB** (TCP), **Gateway Load Balancer**.
+- Routes traffic to healthy instances, improving fault tolerance.
 
-### 3. AWS Direct Connect:
-- Provides a dedicated connection from on-premises to AWS.
-- Bypasses the internet for secure, low-latency, consistent performance.
-- Ideal for hybrid cloud and large data transfers.
+**AWS Direct Connect:**
+- Dedicated connection from on-premises to AWS, bypassing the internet.
+- Provides secure, low-latency, and consistent performance.
 
-### 4. AWS Transit Gateway:
-- Connects multiple VPCs and on-prem networks through a central gateway.
-- Simplifies network management and supports thousands of connections.
+**AWS Transit Gateway:**
+- Central hub for connecting multiple VPCs and on-prem networks.
+- Simplifies network management with scalable connections.
 
-### 5. Amazon Route 53:
+**Amazon Route 53:**
 - Scalable DNS service for domain registration and routing.
-- Routing policies: Simple, Weighted, Latency-based for optimal performance.
+- Supports simple, weighted, and latency-based routing for optimal performance.
 
-### 6. Security Groups and NACLs:
-- **Security Groups**: Stateful firewalls for instances, allowing/rejecting traffic.
-- **NACLs**: Stateless firewalls at the subnet level; need separate inbound/outbound rules.
+**Security Groups and NACLs:**
+- **Security Groups**: Stateful firewalls for instances to control traffic.
+- **NACLs**: Stateless firewalls for subnets, with separate inbound/outbound rules.
 
-### 7. AWS Global Accelerator:
-- Provides static IPs to improve application performance globally.
-- Routes traffic to the best AWS region and handles failover.
+**AWS Global Accelerator:**
+- Improves app performance globally with static IPs.
+- Routes traffic to optimal AWS regions and handles failover.
 
-### 8. VPC Peering:
-- Connects two VPCs for private IP communication.
+**VPC Peering:**
+- Connects two VPCs for private communication using IP addresses.
 - Supports inter-region and cross-account peering.
 
-### 9. AWS VPN:
-- **Site-to-Site VPN**: Connects on-premises networks to AWS VPCs.
-- **Client VPN**: Secure remote access to AWS resources.
+**AWS VPN:**
+- **Site-to-Site VPN**: Connects on-prem networks to AWS VPCs.
+- **Client VPN**: Provides secure remote access to AWS resources.
 
 
 
