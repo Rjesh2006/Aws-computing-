@@ -4,8 +4,38 @@
 Cloud Computing
 
 ## AWS Overview
-- Cloud computing delivers various services over the internet.
-- AWS (Amazon Web Services) is a comprehensive cloud platform.
+   #### Essential AWS Services Breakdown
+   
+   **Compute:**
+   - **EC2**: Scalable virtual servers for running applications.
+   - **Lambda**: Serverless compute that runs code in response to events.
+   - **ECS**: Docker container orchestration service.
+   - **Elastic Beanstalk**: Easy deployment and scaling for web apps.
+   
+   **Storage:**
+   - **S3**: Scalable object storage for data, files, and backups.
+   - **EBS**: Block storage for use with EC2 instances.
+   - **Glacier**: Low-cost archival storage for long-term data retention.
+   - **FSx**: Managed file systems for Windows and Linux workloads.
+   
+   **Database:**
+   - **RDS**: Managed relational databases like MySQL, PostgreSQL, and Oracle.
+   - **DynamoDB**: Fully managed NoSQL database for fast performance.
+   - **Aurora**: High-performance managed database compatible with MySQL/PostgreSQL.
+   - **Redshift**: Data warehouse solution for big data analytics.
+   
+   **Networking:**
+   - **VPC**: Custom virtual cloud networks within AWS.
+   - **Route 53**: Scalable DNS and domain registration service.
+   - **Direct Connect**: Dedicated network connection between on-prem and AWS.
+   - **CloudFront**: Content delivery network (CDN) for fast distribution of content.
+   
+   **Security and Identity:**
+   - **IAM**: Identity and Access Management for secure access control.
+   - **Shield**: Managed DDoS protection for AWS applications.
+   - **Cognito**: User authentication and identity service for web and mobile apps.
+   - **KMS**: Key management service for creating and controlling encryption keys.
+
 
 ## Cloud Computing Benefits
 - Faster time to market
